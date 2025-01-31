@@ -44,22 +44,34 @@ h2{
 .locationinput{
     width: 70%;
     height: 25px;
-    color:black;
+    color: black;
+    /* background: #FF5200; */
     margin: 40px auto auto 0px;
     padding: 10px;
     font-size: 18px;
     font-weight: 500;
+    border-radius: 15px;
+    border-color: transparent;
+}
+#searchimg{
+    height: 25px;
+    width: auto;
+}
+::placeholder{
+    color: black;
+    text-decoration: none;
 }
 .location{
     border: none;
     background-color: transparent;
     position: absolute;
-    top: 307px;
-    left: 400px;
-    padding: 15px;
+    top: 304px;
+    left: 430px;
+    padding: 11px;
+    border-radius: 15px;
 }
 button:hover{
-    background-color: lightgray;
+    background-color: #FF5200;
    
 }
 .findfood{
@@ -100,4 +112,10 @@ button:hover{
 .list:nth-child(even){
     color: black;
 }
-.
+.restaurants{
+    background-color: black;
+    color: black;
+    padding: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
